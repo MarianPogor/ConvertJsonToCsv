@@ -1,0 +1,182 @@
+﻿[
+  {
+    "id": 244,
+    "uuid": "129ed87e-0d4e-4284-93f4-567b548c8cec",
+    "name": null,
+    "description": null,
+    "state": "not_configured",
+    "system_tags": [
+      "indoor",
+      "offline"
+    ],
+    "user_tags": [
+      "Barcelona"
+    ],
+    "last_reading_at": null,
+    "added_at": "2013-07-31T00:25:24Z",
+    "updated_at": "2013-07-31T00:25:24Z",
+    "mac_address": "[FILTERED]",
+    "owner": null,
+    "data": {
+      "recorded_at": null,
+      "added_at": null,
+      "location": {
+        "ip": null,
+        "exposure": "indoor",
+        "elevation": 0,
+        "latitude": 41.3893,
+        "longitude": 2.16328,
+        "geohash": "sp3e3nxq0h",
+        "city": "Barcelona",
+        "country_code": "ES",
+        "country": "Spain"
+      },
+      "sensors": [
+        {
+          "id": 10,
+          "ancestry": null,
+          "name": "Battery",
+          "description": "Custom Circuit",
+          "unit": "%",
+          "created_at": "2015-02-02T18:18:00Z",
+          "updated_at": "2015-07-05T19:53:51Z",
+          "measurement_id": 7,
+          "uuid": "c9ff2784-53a7-4a84-b0fc-90ecc7e313f9",
+          "value": null,
+          "raw_value": null,
+          "prev_value": null,
+          "prev_raw_value": null
+        },
+        {
+          "id": 5,
+          "ancestry": "3",
+          "name": "DHT22 - Humidity",
+          "description": "Humidity",
+          "unit": "%",
+          "created_at": "2015-02-02T18:15:34Z",
+          "updated_at": "2015-09-17T14:56:59Z",
+          "measurement_id": 2,
+          "uuid": "6b4b64d9-3841-446c-a7f5-63f480932b96",
+          "value": null,
+          "raw_value": null,
+          "prev_value": null,
+          "prev_raw_value": null
+        },
+        {
+          "id": 4,
+          "ancestry": "3",
+          "name": "DHT22 - Temperature",
+          "description": "Temperature",
+          "unit": "ºC",
+          "created_at": "2015-02-02T18:15:14Z",
+          "updated_at": "2015-09-17T14:52:11Z",
+          "measurement_id": 1,
+          "uuid": "a50dbd88-b0c7-4094-ad74-2b755e8023a8",
+          "value": null,
+          "raw_value": null,
+          "prev_value": null,
+          "prev_raw_value": null
+        },
+        {
+          "id": 8,
+          "ancestry": null,
+          "name": "MICS-2710",
+          "description": "MOS NO2 gas sensor",
+          "unit": "kOhm (ppm)",
+          "created_at": "2015-02-02T18:17:23Z",
+          "updated_at": "2015-09-16T16:50:41Z",
+          "measurement_id": 6,
+          "uuid": "1eb0249d-29d8-41be-8e24-d3b1e5773c0f",
+          "value": null,
+          "raw_value": null,
+          "prev_value": null,
+          "prev_raw_value": null
+        },
+        {
+          "id": 9,
+          "ancestry": null,
+          "name": "MICS-5525",
+          "description": "MOS CO gas sensor",
+          "unit": "kOhm (ppm)",
+          "created_at": "2015-02-02T18:17:44Z",
+          "updated_at": "2015-09-16T16:51:42Z",
+          "measurement_id": 5,
+          "uuid": "7baaecb7-2586-4063-9c15-bfa999e329aa",
+          "value": null,
+          "raw_value": null,
+          "prev_value": null,
+          "prev_raw_value": null
+        },
+        {
+          "id": 21,
+          "ancestry": null,
+          "name": "Microchip RN-131",
+          "description": "802.11 b/g WiFi",
+          "unit": "# networks",
+          "created_at": "2015-05-04T11:17:18Z",
+          "updated_at": "2015-07-05T19:57:22Z",
+          "measurement_id": 9,
+          "uuid": "5b1f0e38-336a-4abf-9989-69b48f0026ef",
+          "value": null,
+          "raw_value": null,
+          "prev_value": null,
+          "prev_raw_value": null
+        },
+        {
+          "id": 7,
+          "ancestry": null,
+          "name": "POM-3044P-R",
+          "description": "Electret microphone with envelope follower sound pressure sensor (noise)",
+          "unit": "dB",
+          "created_at": "2015-02-02T18:16:41Z",
+          "updated_at": "2015-09-17T14:56:00Z",
+          "measurement_id": 4,
+          "uuid": "5efd2376-6783-476b-bf85-57ead5f89654",
+          "value": null,
+          "raw_value": null,
+          "prev_value": null,
+          "prev_raw_value": null
+        },
+        {
+          "id": 6,
+          "ancestry": null,
+          "name": "PVD-P8001",
+          "description": "LDR Analog Light Sensor",
+          "unit": "%",
+          "created_at": "2015-02-02T18:15:55Z",
+          "updated_at": "2015-09-17T14:57:28Z",
+          "measurement_id": 3,
+          "uuid": "0e9cdc5b-d369-4480-9676-bf31af6a5977",
+          "value": null,
+          "raw_value": null,
+          "prev_value": null,
+          "prev_raw_value": null
+        },
+        {
+          "id": 11,
+          "ancestry": null,
+          "name": "Solar Panel",
+          "description": "Custom Circuit",
+          "unit": "V",
+          "created_at": "2015-02-02T18:18:12Z",
+          "updated_at": "2015-09-17T14:58:07Z",
+          "measurement_id": 8,
+          "uuid": "4ab402c5-9297-407a-b0b2-7089520f7ed0",
+          "value": null,
+          "raw_value": null,
+          "prev_value": null,
+          "prev_raw_value": null
+        }
+      ]
+    },
+    "kit": {
+      "id": 2,
+      "uuid": "1409dba9-b06b-4ea5-904c-e0df6e09b903",
+      "slug": "sck:1,0",
+      "name": "SmartCitizen Kit 1.0",
+      "description": "SCK 1.0 - Ambient Board",
+      "created_at": "2015-02-02T18:18:50Z",
+      "updated_at": "2015-09-16T16:49:24Z"
+    }
+  }
+]
